@@ -1,0 +1,26 @@
+
+body {
+
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #3a3a3a;
+    margin: 0;
+    padding: 0;
+    background-color: #ced4da;
+}
+
+span {
+
+    color:orangered;
+}
+
+form button {
+
+    background: #000000 !important;
+    border: none !important;
+}
+
+.error {
+    
+    color: orangered;
+}
