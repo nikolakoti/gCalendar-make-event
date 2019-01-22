@@ -13,4 +13,10 @@
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('home');
+
+
+Route::get('/events', 'CalendarController@getEvents')->name('events.list');
+
+Route::post('/ajax/form-process', 'CalendarController@createEvent')->name('create.event');
+
