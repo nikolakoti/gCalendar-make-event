@@ -3,7 +3,7 @@
 # Edit at https://www.gitignore.io/?templates=linux,laravel,netbeans
 
 ### Laravel ###
-/vendor/
+
 node_modules/
 npm-debug.log
 yarn-error.log
